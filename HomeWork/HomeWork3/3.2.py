@@ -14,19 +14,22 @@
 # [2, 2, 4, 8, 8]
 # [16, 16, 4]
 
-import random
 
-def find_number(amount):
-    random_list = random.sample(range(1, amount * 2), k=amount)
-    print(random_list)
-    new_list = []
-    num = len(random_list)
-    while new_list // 2:
-        new_list.append(random_list[0] * random_list[num- 1])
+
+
+# import random
+
+# def find_number(amount):
+#     random_list = random.sample(range(1, amount * 2), k=amount)
+#     print(random_list)
+#     new_list = []
+#     num = len(random_list)
+#     while new_list // 2:
+#         new_list.append(random_list[0] * random_list[num- 1])
   
 
 
-find_number(int(input("Введите размер списка: ")))
+# find_number(int(input("Введите размер списка: ")))
 
 
 
