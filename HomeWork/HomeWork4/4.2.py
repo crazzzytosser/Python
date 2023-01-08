@@ -21,5 +21,4 @@ def simple_factor(n):
             print(list)
         return list
 
-
 simple_factor(int(input('Введите любое число: ')))
