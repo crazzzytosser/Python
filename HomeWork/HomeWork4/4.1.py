@@ -9,12 +9,10 @@
 # Enter the required accuracy '0.0001': 0.001
 # out
 # 8.988
-# from decimal import Decimal
 
-# x = float(input("Введите любое чисто: "))
+from decimal import Decimal
 
-# print(Decimal(0.10))
+number = Decimal(input('Введите любое число: '))
+number = number.quantize(Decimal(input('Введите точность вида - 1.000 ')))
+print(number)
 
-
-
-qwedfgh
