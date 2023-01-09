@@ -6,7 +6,7 @@ from random import randint
 def list_nums(nums):
     new_list = []
     for nums in range(int(input('Введите размер списка: '))):
-        new_list.append(randint(1, 12))
+        new_list.append(randint(1, 10))
     print(new_list)
     n = len(new_list)
     i = 0
