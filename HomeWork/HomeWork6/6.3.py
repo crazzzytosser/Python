@@ -11,4 +11,5 @@ def function(*names):
         result_dict[name[0]].append(name)
     return result_dict
 
+
 print(function("Иван", "Мария", "Петр", "Илья", "Марина", "Петр", "Алина", "Бибочка"))
